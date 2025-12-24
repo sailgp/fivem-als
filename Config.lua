@@ -262,2854 +262,2854 @@ EquipmentSetups = { -- Equipment setups for each vehicle
         driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
         carsToSyncWith = {}, -- Vehicles that will sync park modes
         cruiseLightExtras = {}, -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp20fpiup'] = {
-            siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights    
-        },
-
-        ['chp1200rt'] = {
-            siren = 'CHP MBU', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp13harley'] = {
-            siren = 'CHP MBU', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 4, 5}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp23durangop'] = {
-            siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp16ram'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chpumtahoe'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp20tahoe'] = {
-            siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp23charg'] = {
-            siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp23durango'] = {
-            siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp16fpiu'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-           ['hp16fpiu'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp18charg'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp19charg'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp11cvpi'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp18tahoe'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp15fpiup'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp18chargst'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp15exped'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp15f250'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp15fpiu'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp15fpiuw'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp15fpiuk9'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp16fpiup'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp21tahoe'] = {
-            siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp23chargp'] = {
-            siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chp20charg'] = {
-            siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['chpum15fpiu'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = false, -- Enable/disable cruise lights
-            useParkMode = false, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        -- ## LAPD ##
-
-        ['lapd13fmb'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1,2,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {2,3,5}, -- Extras to enable in stage 2
-            stage3Extras = {3,6,7,8,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd13fpiu'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1,2,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {2,3,5}, -- Extras to enable in stage 2
-            stage3Extras = {3,6,7,8,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd13funm'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1,2,8}, -- Extras to enable in stage 1
-            stage2Extras = {1,3,8}, -- Extras to enable in stage 2
-            stage3Extras = {4,5,6,7}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-        ['lapd13tfmb'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1,2,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {2,3,5}, -- Extras to enable in stage 2
-            stage3Extras = {3,6,7,8,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd13vfpiu'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1,2,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {2,3,5}, -- Extras to enable in stage 2
-            stage3Extras = {3,6,7,8,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd16fpiua'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {1,2,4}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,9,11,11}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd16fpiub'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {1,2,4}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,9,11,11}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd16funm'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1,2}, -- Extras to enable in stage 1
-            stage2Extras = {1,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4,5,6,7}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd16sfpiua'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {1,2,4}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,9,11}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd16sfpiub'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {1,2,4}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,9,11}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd16tfpiua'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {1,2,4}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,9,11}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd16tfpiub'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
-            stage2Extras = {1,2,4}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,9,11}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd19funm'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1,2}, -- Extras to enable in stage 1
-            stage2Extras = {1,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4,5,6,7}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd20fpiua'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {9}, -- Extras to enable in stage 1
-            stage2Extras = {1,9}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lax20fpiu'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {9}, -- Extras to enable in stage 1
-            stage2Extras = {1,9}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd20fpiub'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {9}, -- Extras to enable in stage 1
-            stage2Extras = {1,9}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd20sl'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {5}, -- Extras to enable in stage 1
-            stage2Extras = {4,5,6,7}, -- Extras to enable in stage 2
-            stage3Extras = {4,5,6,7}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {8, 11, 12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {lapd20talpra,lapd20talprb,lapd20tfpiu,lapd20sl}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd20talpra'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {9}, -- Extras to enable in stage 1
-            stage2Extras = {1,9}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,8,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {lapd20talpra,lapd20talprb,lapd20tfpiu,lapd20sl}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd20talprb'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {9}, -- Extras to enable in stage 1
-            stage2Extras = {1,9}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,8,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {lapd20talpra,lapd20talprb,lapd20tfpiu,lapd20sl}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd20tfpiu'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {9}, -- Extras to enable in stage 1
-            stage2Extras = {1,9}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,7,8,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = false, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {lapd20talpra,lapd20talprb,lapd20tfpiu}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd20unm1'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1}, -- Extras to enable in stage 1
-            stage2Extras = {1,2,3}, -- Extras to enable in stage 2
-            stage3Extras = {4,5,6,7}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd20unm2'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1}, -- Extras to enable in stage 1
-            stage2Extras = {1,2,3}, -- Extras to enable in stage 2
-            stage3Extras = {4,5,6,7}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapd24fpiu'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {9}, -- Extras to enable in stage 1
-            stage2Extras = {1,9}, -- Extras to enable in stage 2
-            stage3Extras = {1,6,9}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['83727'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['84361'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['85734'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['86385'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['86399'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['86486'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['87136'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['hybridfpis'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {6}, -- Extras to enable in stage 1
-            stage2Extras = {6}, -- Extras to enable in stage 2
-            stage3Extras = {3,6}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lapdfpis'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {6}, -- Extras to enable in stage 1
-            stage2Extras = {6}, -- Extras to enable in stage 2
-            stage3Extras = {3,6}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['mpd25durango'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {2,3},
-            stage2Extras = {1,2,3},
-            stage3Extras = {1,2,3,7},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {},
-            cruiseLightExtras = {}
-        },
-
-        ['montereypkpd23tahoe'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {2,3},
-            stage2Extras = {1,2,3},
-            stage3Extras = {1,2,3,7},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {},
-            cruiseLightExtras = {}
-        },
-
-        ['npb2024'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {},
-            stage3Extras = {},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {},
-            cruiseLightExtras = {}
-        },
-        
-        ['firestonepolice1'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {5},
-            stage3Extras = {5},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {firestonepolice1, firestonepolice2, firestonepolice3},
-            cruiseLightExtras = {}
-        },
-        
-        ['firestonepolice2'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {5},
-            stage3Extras = {5},
-            extrasToBeEnabledOnSpawn = {3, 10, 12},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {firestonepolice1, firestonepolice2, firestonepolice3},
-            cruiseLightExtras = {6}
-        },
-        
-        ['firestonepolice3'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {5},
-            stage3Extras = {5},
-            extrasToBeEnabledOnSpawn = {3, 10},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {firestonepolice1, firestonepolice2, firestonepolice3},
-            cruiseLightExtras = {6}
-        },
-        
-        ['firestoneunmarked1'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {},
-            stage3Extras = {},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {},
-            cruiseLightExtras = {}
-        },
-        
-        ['firestoneunmarked2'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {},
-            stage3Extras = {},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {},
-            cruiseLightExtras = {}
-        },
-        
-        ['tpd2016'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {1},
-            stage3Extras = {1, 4},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {4},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {tpd2016, tpd2017},
-            cruiseLightExtras = {1}
-        },
-        
-        ['tpd2017'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {1},
-            stage3Extras = {1, 4},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {tpd2016, tpd2017},
-            cruiseLightExtras = {}
-        },
-
-        ['firestonedurango'] = {
-            siren = 'Code 3 RSO',
-            stage1Extras = {},
-            stage2Extras = {},
-            stage3Extras = {},
-            extrasToBeEnabledOnSpawn = {},
-            useCruiseLights = true,
-            useParkMode = true,
-            useTimeBasedParkModes = true,
-            useLowFreqTones = false,
-            parkModeExtras = {},
-            dayParkModeExtras = {},
-            nightParkModeExtras = {},
-            driveModeExtras = {},
-            carsToSyncWith = {},
-            cruiseLightExtras = {}
-        },
-
-
-        -- ## LASD ##
-
-        ['13lasdfpiucpt'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {5}, -- Extras to enable in stage 1
-            stage2Extras = {5}, -- Extras to enable in stage 2
-            stage3Extras = {6}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['13lasdfpiuunmk'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {1}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['13lasdfpiuwestin'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {5}, -- Extras to enable in stage 1
-            stage2Extras = {5}, -- Extras to enable in stage 2
-            stage3Extras = {6}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd16asap'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2}, -- Extras to enable in stage 1
-            stage2Extras = {2,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd16asapb'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2}, -- Extras to enable in stage 1
-            stage2Extras = {2,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd16asapc'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2}, -- Extras to enable in stage 1
-            stage2Extras = {2,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd16asapd'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2}, -- Extras to enable in stage 1
-            stage2Extras = {2,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd16fpiu'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2}, -- Extras to enable in stage 1
-            stage2Extras = {2,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd16fpiub'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2}, -- Extras to enable in stage 1
-            stage2Extras = {2,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd16rfr'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2}, -- Extras to enable in stage 1
-            stage2Extras = {2,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd16rfrb'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {2}, -- Extras to enable in stage 1
-            stage2Extras = {2,3}, -- Extras to enable in stage 2
-            stage3Extras = {3,4}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd1992'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {5,7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd1993caprice'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd1993capricemerger'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd1993capriceparamount'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd1996caprice'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd1997'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd2000stage'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd2000two'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd2001'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd2002'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['lasd2003'] = {
-            siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['sd20fpiu'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1}, -- Extras to enable in stage 1
-            stage2Extras = {1}, -- Extras to enable in stage 2
-            stage3Extras = {2}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {7,8,11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-        ['sd20asap'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {1}, -- Extras to enable in stage 1
-            stage2Extras = {1}, -- Extras to enable in stage 2
-            stage3Extras = {2}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {7,8,11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        -- ## BHPD ##
-
-        ['bh1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,2,3,6,7,8}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['bh3'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {1}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {2,3,4,5,6,7,10}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['bh5'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {10}, -- Extras to enable in stage 1
-            stage2Extras = {10}, -- Extras to enable in stage 2
-            stage3Extras = {1}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {3,5,6}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = true, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['bh8'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {1}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {2,3,6,7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        -- ## LAFD ##
-
-        ['21fireladder'] = {
-            siren = 'FIRE', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {1,3,5}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-        ['rambulance'] = {
-            siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-         ['lasd11'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-             ['lasd12'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-             ['lasd13'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['lasd14'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['lasd08tahoe'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['lasd14tahoe'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['13lasdfpiu'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-              ['vcsotahoe'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-                   ['vcsotahoe2'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-                   ['vcsotahoe3'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['21durango'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-                 ['lasdriotf350'] = {
-            siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        ['23ssjam'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        ['ocsd1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['ocsd2'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['ocsd3'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['ocsd4'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['ocsd5'] = {
-            siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['ocsd6'] = {
-            siren = 'CHP MBU', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['ocsd7'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {7}, -- Extras to enable in stage 1      
-            stage2Extras = {7}, -- Extras to enable in stage 2
-            stage3Extras = {5,7}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['smcso25fpiu'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {8}, -- Extras to enable in stage 1
-            stage2Extras = {6,8}, -- Extras to enable in stage 2
-            stage3Extras = {2,3,4,6,8}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso11cvpi1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {6}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {9,10}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso11cvpi2'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {5,6}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso13fpiu1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso13fpiu2'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {5,10}, -- Extras to enable in stage 2
-            stage3Extras = {6,7}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso16fpiu1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {10}, -- Extras to enable in stage 2
-            stage3Extras = {6,5}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso16fpiu2'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso16fpiu3'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {10}, -- Extras to enable in stage 2
-            stage3Extras = {6,10}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso16fpiu4'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {10}, -- Extras to enable in stage 2
-            stage3Extras = {6,5}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso20fpiu1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {10}, -- Extras to enable in stage 2
-            stage3Extras = {5.6,10}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso20fpiu2'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso20fpiu3'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso20fpiuU'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso21tahoe'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rso21tahoeU'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {5}, -- Extras to enable in stage 2
-            stage3Extras = {5,6}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-            ['rsocharger'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['mdpd18c1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['mdpd18c2'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['mdpd18c3'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['mdpd18c4'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['mdpd18c5'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['mdpd18c6'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['um1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['mdpd161'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['mdpd162'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['hpbike1'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['pbike'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['zzninja33'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['hpbike2'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['bmwrp'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['sec21durangogy'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['sec22tahoegy'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['sec21fpiugy'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['nps23charger'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['npstahoeppv'] = {
-            siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['20Exp'] = {
-            siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['Caravan'] = {
-            siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-
-            ['16Exp'] = {
-            siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
-        
-            ['schp20fpiuum'] = {
-            siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
-            stage1Extras = {}, -- Extras to enable in stage 1
-            stage2Extras = {}, -- Extras to enable in stage 2
-            stage3Extras = {}, -- Extras to enable in stage 3
-            extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
-            useCruiseLights = true, -- Enable/disable cruise lights
-            useParkMode = true, -- Enable/disable park mode
-            useTimeBasedParkModes = true, -- Enable/disable time based park modes
-            useLowFreqTones = false, -- Enable/disable low frequency tones
-            parkModeExtras = {}, -- Extras to enable in park mode
-            dayParkModeExtras = {}, -- Extras to enable in day park mode
-            nightParkModeExtras = {}, -- Extras to enable in night park mode
-            driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
-            carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
-            cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
-        },
+    },
+
+    ['chp20fpiup'] = {
+        siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights    
+    },
+
+    ['chp1200rt'] = {
+        siren = 'CHP MBU', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp13harley'] = {
+        siren = 'CHP MBU', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 4, 5}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp23durangop'] = {
+        siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp16ram'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chpumtahoe'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp20tahoe'] = {
+        siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp23charg'] = {
+        siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp23durango'] = {
+        siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp16fpiu'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['hp16fpiu'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp18charg'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp19charg'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp11cvpi'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp18tahoe'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp15fpiup'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp18chargst'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp15exped'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp15f250'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp15fpiu'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp15fpiuw'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp15fpiuk9'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp16fpiup'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 8, 11}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp21tahoe'] = {
+        siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp23chargp'] = {
+        siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chp20charg'] = {
+        siren = 'EV20', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 2, 3, 6, 7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['chpum15fpiu'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1, 3}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = false, -- Enable/disable cruise lights
+        useParkMode = false, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    -- ## LAPD ##
+
+    ['lapd13fmb'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1,2,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {2,3,5}, -- Extras to enable in stage 2
+        stage3Extras = {3,6,7,8,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd13fpiu'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1,2,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {2,3,5}, -- Extras to enable in stage 2
+        stage3Extras = {3,6,7,8,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd13funm'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1,2,8}, -- Extras to enable in stage 1
+        stage2Extras = {1,3,8}, -- Extras to enable in stage 2
+        stage3Extras = {4,5,6,7}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['lapd13tfmb'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1,2,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {2,3,5}, -- Extras to enable in stage 2
+        stage3Extras = {3,6,7,8,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd13vfpiu'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1,2,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {2,3,5}, -- Extras to enable in stage 2
+        stage3Extras = {3,6,7,8,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd16fpiua'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {1,2,4}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,9,11,11}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd16fpiub'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {1,2,4}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,9,11,11}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd16funm'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1,2}, -- Extras to enable in stage 1
+        stage2Extras = {1,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4,5,6,7}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd16sfpiua'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {1,2,4}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,9,11}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd16sfpiub'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {1,2,4}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,9,11}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd16tfpiua'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {1,2,4}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,9,11}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd16tfpiub'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2,3,4,5}, -- Extras to enable in stage 1
+        stage2Extras = {1,2,4}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,9,11}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd19funm'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1,2}, -- Extras to enable in stage 1
+        stage2Extras = {1,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4,5,6,7}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd20fpiua'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {9}, -- Extras to enable in stage 1
+        stage2Extras = {1,9}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lax20fpiu'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {9}, -- Extras to enable in stage 1
+        stage2Extras = {1,9}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd20fpiub'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {9}, -- Extras to enable in stage 1
+        stage2Extras = {1,9}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd20sl'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {5}, -- Extras to enable in stage 1
+        stage2Extras = {4,5,6,7}, -- Extras to enable in stage 2
+        stage3Extras = {4,5,6,7}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {8, 11, 12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {lapd20talpra,lapd20talprb,lapd20tfpiu,lapd20sl}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd20talpra'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {9}, -- Extras to enable in stage 1
+        stage2Extras = {1,9}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,8,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {lapd20talpra,lapd20talprb,lapd20tfpiu,lapd20sl}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd20talprb'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {9}, -- Extras to enable in stage 1
+        stage2Extras = {1,9}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,8,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {lapd20talpra,lapd20talprb,lapd20tfpiu,lapd20sl}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd20tfpiu'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {9}, -- Extras to enable in stage 1
+        stage2Extras = {1,9}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,7,8,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = false, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {lapd20talpra,lapd20talprb,lapd20tfpiu}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd20unm1'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1}, -- Extras to enable in stage 1
+        stage2Extras = {1,2,3}, -- Extras to enable in stage 2
+        stage3Extras = {4,5,6,7}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd20unm2'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1}, -- Extras to enable in stage 1
+        stage2Extras = {1,2,3}, -- Extras to enable in stage 2
+        stage3Extras = {4,5,6,7}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapd24fpiu'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {9}, -- Extras to enable in stage 1
+        stage2Extras = {1,9}, -- Extras to enable in stage 2
+        stage3Extras = {1,6,9}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['83727'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['84361'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['85734'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['86385'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['86399'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['86486'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['87136'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['hybridfpis'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {6}, -- Extras to enable in stage 1
+        stage2Extras = {6}, -- Extras to enable in stage 2
+        stage3Extras = {3,6}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lapdfpis'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {6}, -- Extras to enable in stage 1
+        stage2Extras = {6}, -- Extras to enable in stage 2
+        stage3Extras = {3,6}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {2}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['mpd25durango'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {2,3},
+        stage2Extras = {1,2,3},
+        stage3Extras = {1,2,3,7},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {},
+        cruiseLightExtras = {}
+    },
+
+    ['montereypkpd23tahoe'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {2,3},
+        stage2Extras = {1,2,3},
+        stage3Extras = {1,2,3,7},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {},
+        cruiseLightExtras = {}
+    },
+
+    ['npb2024'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {},
+        stage3Extras = {},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {},
+        cruiseLightExtras = {}
+    },
+    
+    ['firestonepolice1'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {5},
+        stage3Extras = {5},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {firestonepolice1, firestonepolice2, firestonepolice3},
+        cruiseLightExtras = {}
+    },
+    
+    ['firestonepolice2'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {5},
+        stage3Extras = {5},
+        extrasToBeEnabledOnSpawn = {3, 10, 12},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {firestonepolice1, firestonepolice2, firestonepolice3},
+        cruiseLightExtras = {6}
+    },
+    
+    ['firestonepolice3'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {5},
+        stage3Extras = {5},
+        extrasToBeEnabledOnSpawn = {3, 10},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {firestonepolice1, firestonepolice2, firestonepolice3},
+        cruiseLightExtras = {6}
+    },
+    
+    ['firestoneunmarked1'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {},
+        stage3Extras = {},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {},
+        cruiseLightExtras = {}
+    },
+    
+    ['firestoneunmarked2'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {},
+        stage3Extras = {},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {},
+        cruiseLightExtras = {}
+    },
+    
+    ['tpd2016'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {1},
+        stage3Extras = {1, 4},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {4},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {tpd2016, tpd2017},
+        cruiseLightExtras = {1}
+    },
+    
+    ['tpd2017'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {1},
+        stage3Extras = {1, 4},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {tpd2016, tpd2017},
+        cruiseLightExtras = {}
+    },
+
+    ['firestonedurango'] = {
+        siren = 'Code 3 RSO',
+        stage1Extras = {},
+        stage2Extras = {},
+        stage3Extras = {},
+        extrasToBeEnabledOnSpawn = {},
+        useCruiseLights = true,
+        useParkMode = true,
+        useTimeBasedParkModes = true,
+        useLowFreqTones = false,
+        parkModeExtras = {},
+        dayParkModeExtras = {},
+        nightParkModeExtras = {},
+        driveModeExtras = {},
+        carsToSyncWith = {},
+        cruiseLightExtras = {}
+    },
+
+
+    -- ## LASD ##
+
+    ['13lasdfpiucpt'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {5}, -- Extras to enable in stage 1
+        stage2Extras = {5}, -- Extras to enable in stage 2
+        stage3Extras = {6}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['13lasdfpiuunmk'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {1}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['13lasdfpiuwestin'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {5}, -- Extras to enable in stage 1
+        stage2Extras = {5}, -- Extras to enable in stage 2
+        stage3Extras = {6}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd16asap'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2}, -- Extras to enable in stage 1
+        stage2Extras = {2,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd16asapb'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2}, -- Extras to enable in stage 1
+        stage2Extras = {2,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd16asapc'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2}, -- Extras to enable in stage 1
+        stage2Extras = {2,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd16asapd'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2}, -- Extras to enable in stage 1
+        stage2Extras = {2,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd16fpiu'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2}, -- Extras to enable in stage 1
+        stage2Extras = {2,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd16fpiub'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2}, -- Extras to enable in stage 1
+        stage2Extras = {2,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd16rfr'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2}, -- Extras to enable in stage 1
+        stage2Extras = {2,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd16rfrb'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {2}, -- Extras to enable in stage 1
+        stage2Extras = {2,3}, -- Extras to enable in stage 2
+        stage3Extras = {3,4}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd1992'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {5,7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd1993caprice'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd1993capricemerger'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd1993capriceparamount'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd1996caprice'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd1997'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd2000stage'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd2000two'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd2001'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd2002'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd2003'] = {
+        siren = 'Omega 90', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,4}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['sd20fpiu'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1}, -- Extras to enable in stage 1
+        stage2Extras = {1}, -- Extras to enable in stage 2
+        stage3Extras = {2}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {7,8,11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['sd20asap'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {1}, -- Extras to enable in stage 1
+        stage2Extras = {1}, -- Extras to enable in stage 2
+        stage3Extras = {2}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {7,8,11,12}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    -- ## BHPD ##
+
+    ['bh1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,2,3,6,7,8}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['bh3'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {1}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {2,3,4,5,6,7,10}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['bh5'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {10}, -- Extras to enable in stage 1
+        stage2Extras = {10}, -- Extras to enable in stage 2
+        stage3Extras = {1}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {3,5,6}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = true, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['bh8'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {1}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {2,3,6,7}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    -- ## LAFD ##
+
+    ['21fireladder'] = {
+        siren = 'FIRE', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {1,3,5}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['rambulance'] = {
+        siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd11'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['lasd12'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd13'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd14'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd08tahoe'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasd14tahoe'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['13lasdfpiu'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['vcsotahoe'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['vcsotahoe2'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['vcsotahoe3'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['21durango'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['lasdriotf350'] = {
+        siren = 'Federal Signal SSP3000B', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['23ssjam'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['ocsd1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['ocsd2'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['ocsd3'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['ocsd4'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['ocsd5'] = {
+        siren = 'Whelen Cencom Sapphire', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['ocsd6'] = {
+        siren = 'CHP MBU', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['ocsd7'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {7}, -- Extras to enable in stage 1      
+        stage2Extras = {7}, -- Extras to enable in stage 2
+        stage3Extras = {5,7}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['smcso25fpiu'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {8}, -- Extras to enable in stage 1
+        stage2Extras = {6,8}, -- Extras to enable in stage 2
+        stage3Extras = {2,3,4,6,8}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso11cvpi1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {6}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {9,10}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso11cvpi2'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {5,6}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso13fpiu1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso13fpiu2'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {5,10}, -- Extras to enable in stage 2
+        stage3Extras = {6,7}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso16fpiu1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {10}, -- Extras to enable in stage 2
+        stage3Extras = {6,5}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso16fpiu2'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso16fpiu3'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {10}, -- Extras to enable in stage 2
+        stage3Extras = {6,10}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso16fpiu4'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {10}, -- Extras to enable in stage 2
+        stage3Extras = {6,5}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso20fpiu1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {10}, -- Extras to enable in stage 2
+        stage3Extras = {5,6,10}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso20fpiu2'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso20fpiu3'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso20fpiuU'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso21tahoe'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rso21tahoeU'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {5}, -- Extras to enable in stage 2
+        stage3Extras = {5,6}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    ['rsocharger'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['mdpd18c1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['mdpd18c2'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['mdpd18c3'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['mdpd18c4'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['mdpd18c5'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['mdpd18c6'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['um1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['mdpd161'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['mdpd162'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['hpbike1'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['pbike'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['zzninja33'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['hpbike2'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['bmwrp'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['sec21durangogy'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['sec22tahoegy'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['sec21fpiugy'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['nps23charger'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['npstahoeppv'] = {
+        siren = 'Code 3 RSO', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['20Exp'] = {
+        siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['Caravan'] = {
+        siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+
+    ['16Exp'] = {
+        siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
+    
+    ['schp20fpiuum'] = {
+        siren = 'EMS', -- Assign a siren, must be a valid siren from the 'Sirens' table above
+        stage1Extras = {}, -- Extras to enable in stage 1
+        stage2Extras = {}, -- Extras to enable in stage 2
+        stage3Extras = {}, -- Extras to enable in stage 3
+        extrasToBeEnabledOnSpawn = {}, -- Extras that will be enabled on spawn, usually spotlights, pushbumpers etc. All other unspecified extras will be disabled when the vehicle is first spawned
+        useCruiseLights = true, -- Enable/disable cruise lights
+        useParkMode = true, -- Enable/disable park mode
+        useTimeBasedParkModes = true, -- Enable/disable time based park modes
+        useLowFreqTones = false, -- Enable/disable low frequency tones
+        parkModeExtras = {}, -- Extras to enable in park mode
+        dayParkModeExtras = {}, -- Extras to enable in day park mode
+        nightParkModeExtras = {}, -- Extras to enable in night park mode
+        driveModeExtras = {}, -- Drive mode extras that will be disabled/enabled when going in/out of park mode
+        carsToSyncWith = {}, -- (STILL TESTING THIS FEATURE, DONT ADVISE USE ON PROD SERVERS YET) Vehicles that will sync park modes with this vehicle when they're close enough
+        cruiseLightExtras = {} -- Cruise light extras that will be disabled/enabled when toggling cruise lights
+    },
 
     },
 }
